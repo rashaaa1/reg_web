@@ -1,0 +1,54 @@
+:root{
+font-family: Montserrat;
+}
+.bg{
+background-image: url('pag.webp') ;
+background-size:contain;
+background-position:top;
+background: cover !important;
+}
+.parentContainer{
+    width: 100%;
+    height: 500px;
+    display:flex;
+    background-color:white;
+    margin-bottom: 19%;}
+  .right1{
+    width: 50%;
+    height: 100%;
+    float: right !important;
+    background:white;
+    flex: 1;
+   
+  }
+  .img1{
+    flex:1;
+    float:left;
+    height: 100%;
+
+  }
+
+  .parentContainer1, .parentContainer2{
+    display:flex;
+    margin-top: 8%;
+  }
+  .div3{
+    margin-top: 9%;
+  }
+  .left{
+    float: left;
+    width: 50%;
+    height: 100%;
+    color: white;
+   flex: 1;
+    background-image: linear-gradient(to bottom right,#0077B6, #F8F9FD);
+   }
+  .right{
+    width: 50%;
+  
+     float:left !important;
+    text-align: center !important;
+    margin:0 auto;
+    background-color:white;
+    text-align: center;
+  }
